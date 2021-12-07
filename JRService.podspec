@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JRService'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JRService.'
 
 # This description is used to generate tags and improve search results.
@@ -25,13 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jerry' => 'jruijqx@163.com' }
-  s.source           = { :git => 'https://github.com/CheATSlark/JRService.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:CheATSlark/JRService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JRService/Classes/**/*'
   
+  s.swift_version = '5.0'
   # s.resource_bundles = {
   #   'JRService' => ['JRService/Assets/*.png']
   # }
@@ -39,6 +40,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'RxSwift', '~> 5'
-  s.dependency 'Moya', '~>13.0'
+  s.dependency 'Moya', '~>13.0.1'
   s.dependency 'HandyJSON', '~> 5.0.2'
 end
