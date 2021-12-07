@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'JRService_Example' do
   pod 'JRService', :path => '../'
-
+ # pod 'RxSwift', '~>5'
   target 'JRService_Tests' do
     inherit! :search_paths
 

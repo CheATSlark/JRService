@@ -22,7 +22,7 @@ pod 'JRService'
 
 ## Author
 
-xj, jruijqx@163.com
+jerry, jruijqx@163.com
 
 ## License
 

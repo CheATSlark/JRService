@@ -1,0 +1,6 @@
+framework module JRService {
+  umbrella header "JRService-umbrella.h"
+
+  export *
+  module * { export * }
+}

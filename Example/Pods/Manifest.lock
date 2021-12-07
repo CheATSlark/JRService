@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.2)
+  - JRService (0.1.0):
+    - HandyJSON (~> 5.0.2)
+    - Moya (~> 13.0)
+    - RxSwift (~> 5)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - RxSwift (5.1.3)
+
+DEPENDENCIES:
+  - JRService (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - Moya
+    - Result
+    - RxSwift
+
+EXTERNAL SOURCES:
+  JRService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  JRService: 597e214ae2d995037334976738a9b429a8d6e6af
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+
+PODFILE CHECKSUM: 0f2ce5925a193adb35b331acd6d645adcebcd9ee
+
+COCOAPODS: 1.10.1
